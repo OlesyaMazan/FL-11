@@ -1,0 +1,176 @@
+body{
+	min-width: 900px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F3F3F3;
+}
+
+div.mainImg{
+	min-width: 900px;	
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
+	height: auto; 
+
+}
+
+img {
+  width: 100%; 
+  height: auto; 
+}
+
+div.TextInside {
+	position: absolute; 
+     left: 5%; 
+     top: 5%; 
+     width: 90%;     
+
+}
+
+
+
+
+h1, h5{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+
+div.Logo{
+	position: absolute; 
+	right: 30%; /* Положение левого края */
+     top: 100%;
+     width: auto;
+
+}
+
+h1{
+	font-size: 40px;
+	text-transform: uppercase;
+
+}
+span.sign{
+	font-size: 60px;
+}
+
+div.gradient{
+	
+	height: 400px;
+    background: linear-gradient(to top right, #F3F3F3 0%,#F3F3F3 50%, black 50%, black 100%);
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	margin:0px;
+}
+
+
+div.article1 img{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 100%;	
+}
+
+div.article2 img{
+	display: inline-block;
+	float: right;
+	width: 50%;
+	height: 100%;		
+}
+
+
+#Text1{
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	margin: 0% 0% 0% 5%;
+	text-align: center;
+	font-size: 90%; 
+	
+}
+
+#Text2{
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	margin: 0% 5% 0% 0%;
+	text-align: center;
+	font-size: 90%; 
+	
+}
+
+
+div.article1 {
+	margin: 5% 0% 0% 5%;
+	width: 90%;
+	height: 100%;	
+}
+
+div.article2{
+	margin: 0% 0% 2% 5%;
+	width: 90%;
+	height: 100%;	
+}
+
+#Text1 p{
+	
+	margin-top: 0px;
+	
+}
+
+div#topText{
+	width: 50%;
+	height: auto;
+	display: block;
+	float: right;
+	font-size: 90%; 
+	color: white;
+	text-align: center;
+	margin: 5% 5% 2% 0%;
+	
+
+}
+
+div#bottomText{
+	width: 50%;
+	height: auto;
+	display: block;
+	float: left;
+	font-size: 90%; 
+	margin: 2% 0% 2% 5%;
+	text-align: center;
+
+}
+
+
+div.newsBox{
+	background-color: white;
+	width: 100%
+	height:100%;
+}
+
+#news1 img, #news2 img, #news3 img, #news4 img{
+	
+	width: 20%;
+	height: 90%;
+	margin: 2% 2% 2% 2%;
+	
+	
+}
+
+div#news1, div#news2, div#news3, div#news4{
+	display: inline;
+	width: 20%;
+	height: 90%;
+}
+
+
+
+
